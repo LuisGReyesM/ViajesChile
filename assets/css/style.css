@@ -1,27 +1,36 @@
 .navbar-brand img {
-    height: 30px; /* Puedes ajustar la altura según sea necesario */
-    width: auto; /* Mantiene la proporción de la imagen */
-    margin-right: 10px; /* Espacio entre la imagen y el texto */
-  }
-
-
-  .navbar-nav .nav-link {
-    color: rgba(255, 255, 255, 0.7); /* Blanco débil */
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Sombra suave para mejorar la legibilidad */
-  }
-
-  body {
-    background-color: #000; /* Fondo negro para todo el cuerpo */
-    color: #fff; /* Color de texto blanco para visibilidad */
+    height: 30px;
+    /* Puedes ajustar la altura según sea necesario */
+    width: auto;
+    /* Mantiene la proporción de la imagen */
+    margin-right: 10px;
+    /* Espacio entre la imagen y el texto */
 }
 
 
-  .custom-box {
+.navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.7);
+    /* Blanco débil */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    /* Sombra suave para mejorar la legibilidad */
+}
+
+body {
+    background-color: #000;
+    /* Fondo negro para todo el cuerpo */
+    color: #fff;
+    /* Color de texto blanco para visibilidad */
+}
+
+
+.custom-box {
     background-color: #007bff;
     padding: 15px;
     border-radius: 5px;
-    text-align: center; /* Centra el contenido dentro del rectángulo */
-    color: #fff; /* Color del texto */
+    text-align: center;
+    /* Centra el contenido dentro del rectángulo */
+    color: #fff;
+    /* Color del texto */
 }
 
 .custom-box .icon {
@@ -30,22 +39,41 @@
     align-items: center;
     width: 50px;
     height: 50px;
-    background-color: #fff; /* Color de fondo del círculo del ícono */
-    border-radius: 50%; /* Hace que el círculo del ícono sea redondeado */
-    margin: 0 auto; /* Centra el ícono dentro del rectángulo */
+    background-color: #fff;
+    /* Color de fondo del círculo del ícono */
+    border-radius: 50%;
+    /* Hace que el círculo del ícono sea redondeado */
+    margin: 0 auto;
+    /* Centra el ícono dentro del rectángulo */
 }
 
 .custom-box .icon i {
-    font-size: 24px; /* Tamaño del ícono */
-    color: #007bff; /* Color del ícono */
+    font-size: 24px;
+    /* Tamaño del ícono */
+    color: #007bff;
+    /* Color del ícono */
 }
 
-.custom-box + p {
-    margin-top: 15px; /* Espacio superior al párrafo */
-    text-align: left; /* Alinea el párrafo a la izquierda */
+.custom-box+p {
+    margin-top: 15px;
+    /* Espacio superior al párrafo */
+    text-align: left;
+    /* Alinea el párrafo a la izquierda */
 }
 
 .card {
-    background-color: #1e1e1e; /* Fondo oscuro para las tarjetas */
-    color: #fff; /* Color del texto dentro de las tarjetas */
+    background-color: #1e1e1e;
+    /* Fondo oscuro para las tarjetas */
+    color: #fff;
+    /* Color del texto dentro de las tarjetas */
+}
+
+.form-container {
+    max-width: 600px;
+    /* Aumenta el ancho máximo del formulario */
+    background-color: #1e1e1e;
+    /* Fondo oscuro para el formulario */
+    border-radius: 8px;
+    width: 100%;
+    /* Ancho completo */
 }

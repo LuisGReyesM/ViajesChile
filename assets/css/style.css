@@ -1,0 +1,11 @@
+.navbar-brand img {
+    height: 30px; /* Puedes ajustar la altura según sea necesario */
+    width: auto; /* Mantiene la proporción de la imagen */
+    margin-right: 10px; /* Espacio entre la imagen y el texto */
+  }
+
+
+  .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.7); /* Blanco débil */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Sombra suave para mejorar la legibilidad */
+  }

@@ -107,13 +107,16 @@ body {
     background-color: #007bff;
     color: #fff;
     height: 100px; /* Ajusta la altura según sea necesario */
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    /*display: flex;
+    /*align-items: center; /* Centra verticalmente el contenido */
+}
+
+.social-icons {
+    text-align: right; /* Alinea los iconos a la derecha */
 }
 
 .social-icons i {
     font-size: 1.5rem;
-    margin: 0 10px;
     color: #fff;
 }
+

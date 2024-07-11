@@ -1,14 +1,16 @@
-$(document).ready(function() {
+$(document).ready(function () {
     // Inicialización de tooltips para todos los elementos con data-bs-toggle="tooltip"
     $('[data-bs-toggle="tooltip"]').tooltip();
 
     // Evento al hacer clic en el elemento con ID #enviarCorreo
-    $('#enviarCorreo').on('click', function () {
+    $('#enviarCorreo').on('click', function (event) {
+        event.preventDefault();
         alert('El correo fue enviado correctamente');
+        $('form')[0].reset();        
     });
 
     // Toggle para mostrar/ocultar la clase 'card-clicked' al hacer clic en cualquier .card
-    $('.card').on('click', function() {
+    $('.card').on('click', function () {
         // Remover la clase 'card-clicked' de todas las cards excepto la que se ha clicado
         $('.card').not(this).removeClass('card-clicked');
         // Alternar la clase 'card-clicked' solo en la card clicada

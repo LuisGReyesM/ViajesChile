@@ -7,7 +7,7 @@ body {
 
 .navbar-brand img {
     height: 30px;
-    /* Puedes ajustar la altura según sea necesario */
+    /* Ajusta la altura según sea necesario */
     width: auto;
     /* Mantiene la proporción de la imagen */
     margin-right: 10px;
@@ -19,7 +19,6 @@ body {
     /* Blanco débil */
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
     /* Sombra suave para mejorar la legibilidad */
-    /* Otros estilos si los necesitas */
 }
 
 .navbar-nav .nav-link.active {
@@ -48,6 +47,7 @@ body {
     /* Color de texto blanco para visibilidad */
 }
 
+/* Formato para los box de quienes somos */
 .custom-box {
     background-color: #007bff;
     padding: 15px;
@@ -58,6 +58,7 @@ body {
     /* Color del texto */
 }
 
+/* Formato para el circulo del icono */
 .custom-box .icon {
     display: flex;
     justify-content: center;
@@ -72,6 +73,7 @@ body {
     /* Centra el ícono dentro del rectángulo */
 }
 
+/* Formato para el icono */
 .custom-box .icon i {
     font-size: 24px;
     /* Tamaño del ícono */
@@ -79,6 +81,7 @@ body {
     /* Color del ícono */
 }
 
+/* Formato para los parrafos dentro del custom-box */
 .custom-box+p {
     margin-top: 15px;
     /* Espacio superior al párrafo */
@@ -86,6 +89,7 @@ body {
     /* Alinea el párrafo a la izquierda */
 }
 
+/* Formato para las cards */
 .card {
     background-color: #1e1e1e;
     /* Fondo oscuro para las tarjetas */
@@ -93,19 +97,25 @@ body {
     /* Color del texto dentro de las tarjetas */
 }
 
+/* Transicion suave para las cards */
 .card {
-    transition: transform 0.3s ease; /* Transición suave de 0.3 segundos */
+    transition: transform 0.3s ease;
+    /* Transición suave de 0.3 segundos */
 }
 
+/* Al hacer click aumneta el tamaño de la imagen */
 .card.card-clicked {
-    transform: scale(1.1); /* Aumentar el tamaño al 110% */
+    transform: scale(1.1);
+    /* Aumentar el tamaño al 110% */
 }
 
+/* Estilo para la sección contacto */
 .contact-section {
-    height: 50vh;
+    height: 50%;
     background-color: #1e1e1e;
 }
 
+/* Estilo para el formulario */
 .form-container {
     max-width: 600px;
     background-color: #1e1e1e;
@@ -114,37 +124,41 @@ body {
     width: 100%;
 }
 
+/* Estilo para H2 */
 .form-container h2 {
     color: #ffffff;
+
 }
 
+/* Color del label */
 .form-container .form-label {
     color: #ffffff;
 }
 
+/* Color de fondo y texto de los form-control */
 .form-container .form-control {
     background-color: #ffffff;
     color: #1e1e1e;
 }
 
-
+/* Estilo para el footer */
 .footer {
     background-color: #007bff;
     color: #fff;
     height: 100px;
     /* Ajusta la altura según sea necesario */
-    /*display: flex;
-    /*align-items: center; /* Centra verticalmente el contenido */
     font-family: 'Lobster', cursive;
     /* Usando la fuente Lobster para la marca */
     font-size: 24px;
 }
 
+/* Alineación de los iconos */
 .social-icons {
     text-align: right;
     /* Alinea los iconos a la derecha */
 }
 
+/* Tamaño y color de los iconos */
 .social-icons i {
     font-size: 1.5rem;
     color: #fff;
@@ -152,25 +166,38 @@ body {
 
 /* Estilos para el contenedor de indicadores del carrusel */
 .indicadores-carousel {
-    list-style: none; /* Elimina los estilos de lista predeterminados */
-    padding: 0; /* Elimina el relleno interior */
-    display: flex; /* Usa un contenedor flexible para los indicadores */
-    justify-content: center; /* Centra los indicadores horizontalmente */
-    margin-top: 1rem; /* Ajusta el margen superior */
+    list-style: none;
+    /* Elimina los estilos de lista predeterminados */
+    padding: 0;
+    /* Elimina el relleno interior */
+    display: flex;
+    /* Usa un contenedor flexible para los indicadores */
+    justify-content: center;
+    /* Centra los indicadores horizontalmente */
+    margin-top: 1rem;
+    /* Ajusta el margen superior */
 }
 
 /* Estilos para cada indicador individual */
 .indicadores-carousel .indicador {
-    width: 10px; /* Ancho del indicador */
-    height: 10px; /* Altura del indicador */
-    background-color: #ccc; /* Color de fondo predeterminado */
-    border-radius: 50%; /* Forma circular */
-    margin: 0 5px; /* Margen horizontal entre indicadores */
-    cursor: pointer; /* Cambia el cursor al pasar sobre el indicador */
-    transition: background-color 0.3s ease; /* Transición suave para el cambio de color de fondo */
+    width: 10px;
+    /* Ancho del indicador */
+    height: 10px;
+    /* Altura del indicador */
+    background-color: #ccc;
+    /* Color de fondo predeterminado */
+    border-radius: 50%;
+    /* Forma circular */
+    margin: 0 5px;
+    /* Margen horizontal entre indicadores */
+    cursor: pointer;
+    /* Cambia el cursor al pasar sobre el indicador */
+    transition: background-color 0.3s ease;
+    /* Transición suave para el cambio de color de fondo */
 }
 
 /* Estilos para el indicador activo */
 .indicadores-carousel .indicador.activo {
-    background-color: #333; /* Color de fondo cuando el indicador está activo */
+    background-color: #333;
+    /* Color de fondo cuando el indicador está activo */
 }

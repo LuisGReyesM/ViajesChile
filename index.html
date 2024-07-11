@@ -13,6 +13,12 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <!-- Iconos Font Awesome -->
     <script src="https://kit.fontawesome.com/727d679344.js" crossorigin="anonymous"></script>
+    <!-- Fuente Font Playfair y Lobster -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lobster&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body data-bs-spy="scroll" data-bs-target="#navbarNav" data-bs-offset="50">
@@ -66,12 +72,16 @@
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
-                data-bs-slide="next">
+            <!-- <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
-            </button>
+            </button> -->
         </div>
+        <ul class="indicadores-carousel">
+            <li class="indicador activo" data-bs-target="#carouselExampleInterval" data-bs-slide-to="0"></li>
+            <li class="indicador" data-bs-target="#carouselExampleInterval" data-bs-slide-to="1"></li>
+            <li class="indicador" data-bs-target="#carouselExampleInterval" data-bs-slide-to="2"></li>
+        </ul>
     </section>
 
     <section id="section-quienes-somos" class="container mt-5 d-none d-md-block">
@@ -215,7 +225,15 @@
                     <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
                     <textarea class="form-control" rows="3"></textarea>
                 </div>
-                <button type="submit" class="btn btn-primary">Enviar</button>
+                <button type="submit" id="enviarCorreo" class="btn btn-primary me-2" data-bs-toggle="tooltip"
+                    data-bs-placement="right" title="Enviar formulario">
+                    Enviar
+                </button>
+
+
+
+
+
             </form>
         </div>
     </section>
@@ -240,7 +258,7 @@
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="./assets/js/script.js"></script>    
+    <script src="./assets/js/script.js"></script>
 </body>
 
 </html>

@@ -22,7 +22,7 @@ Este repositorio contiene los archivos y recursos para la página web **Viajes C
 
 - **Menú**: Cuenta con un menú que nos redirige a las diferentes secciones de la página .
 - **Inicio**: Carrusel de imagenes con boostrap y con la impelemntación de esferas en jquery y css.
-- **Quiénes Somos**: Se generan 3 columas responsivas que se ocultan en dispositivos pequeños.
+- **Quiénes Somos**: Se generan 3 columas responsivas que se ocultan en dispositivos pequeños, ademas de poder ordenar el custom-box y el P al hacer click.
 - **Destacados**: Sección con 4 cards con boostrap y que se agrandan al hacer click sobre ellas, utilizando jquery.
 - **Contacto**: Formulario de contacto para consultas y comentarios, se despliega un alert, jquery, al presionar el boton enviar. .
 
@@ -140,7 +140,6 @@ $(document).ready(function () {
     });
 });
 ```
-
 
 ## Autor
 

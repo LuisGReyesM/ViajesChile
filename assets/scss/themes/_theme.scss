@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", serif;
+    font-weight: 400;
+}
+
+/* Ajusta el ancho del contenedor de la barra de navegación */
+.navbar {
+    max-width: 1350px; /* Cambia este valor según sea necesario */
+    margin: 0 auto; /* Centra la barra de navegación */
+}
+
+/* Estilo para el logo dentro de la barra de navegación */
+.navbar-brand img {
+    height: 30px;
+    width: auto;
+    margin-right: 10px;
+}
+
+/* Estilo para los enlaces de navegación */
+.navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.7);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+/* Estilo para el enlace activo en la barra de navegación */
+.navbar-nav .nav-link.active {
+    font-weight: bold;
+    color: #007bff;
+}
+
+/* Estilo para la marca "Viajes Chile" */
+.navbar-brand {
+    font-family: 'Lobster', cursive;
+    font-size: 1.5rem;
+    color: white;
+    text-decoration: none;
+}
+
+body {
+    background-color: #000;
+    /* Fondo negro para todo el cuerpo */
+    color: #fff;
+    /* Color de texto blanco para visibilidad */
+}
+
+
+#carousel .carousel-item img {
+    height: 500px;
+    width: 100%;
+    /* object-fit: contain; */
+    /* Ajusta la imagen para que se redimensione según el contenedor sin recortarse */
+    object-fit: cover; /* Ajusta la imagen para que cubra todo el contenedor, pero se recorta para mantener la proporcion */
+}
+
+@media (max-width: 768px) {
+    #carousel .carousel-item img {
+        height: 300px;
+    }
+}
+
+
+#information img {
+    width: 100%;
+    height: auto;
+}
+
+
+/* Estilos personalizados */
+.featured {
+    text-align: left;
+}
+
+
+.modal-body {
+    color: #000; /* Color de texto negro para asegurar visibilidad */
+    background-color: #fff; /* Fondo blanco si es necesario */
+}
+
+.modal-title {
+    color: #000; /* Color del título */
+    font-weight: 700; /* Negrita */
+    text-align: center;
+}
+
+
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    /* Espacio mínimo entre las tarjetas */
+}
+
+.card {
+    display: flex;
+    flex-direction: column; /* Asegura que los elementos se alineen verticalmente */
+    height: 100%; /* Ajusta la altura según sea necesario */
+}
+
+.card img {
+    height: 200px; /* Ajusta la altura de la imagen según sea necesario */
+    width: 100%;
+    object-fit: cover; /* Hace que la imagen cubra todo el contenedor sin distorsionarse */
+}
+
+.card-body {
+    flex: 1; /* Asegura que el cuerpo de la tarjeta se expanda para llenar el espacio restante */
+}
+
+.card-text {
+    font-weight: 400;
+    font-size: small;
+}

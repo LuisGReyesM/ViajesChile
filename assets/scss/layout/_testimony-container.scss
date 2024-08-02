@@ -1,0 +1,26 @@
+.testimony {
+    padding: 2rem 0; /* Agrega relleno arriba y abajo de la sección */
+    text-align: center; /* Centra el texto dentro del bloque */
+    margin-bottom: 1.5rem; /* Espacio inferior entre los bloques de testimonio */
+    margin-left: 30px; /* Espacio entre columnas en pantallas medianas y grandes */
+    margin-right: 30px; /* Espacio entre columnas en pantallas medianas y grandes */
+}
+
+.testimony__name{
+    font-weight: 700;
+}
+
+.testimony__text{
+    font-weight: 400;
+    text-align: left;
+}
+
+
+.testimony__image {
+    width: 100px; /* Ajusta el tamaño de la imagen según sea necesario */
+    height: 100px;
+    border-radius: 50%; /* Hace que la imagen sea redonda */
+    object-fit: cover; /* Ajusta la imagen para que cubra el contenedor sin distorsión */
+    margin: 0 auto; /* Centra la imagen horizontalmente dentro del contenedor */
+}
+

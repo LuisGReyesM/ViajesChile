@@ -25,4 +25,13 @@ document.addEventListener('DOMContentLoaded', () => {
     if (enviarButton) {
         enviarButton.addEventListener('click', showAlert);
     }
+    //Desmarca el checkbox de terminos y condiciones si presiona sobre el botón de cancelar del modal
+    document.getElementById('closeButton').addEventListener('click', function() {
+        document.getElementById('exampleCheck1').checked = false;
+    });
+
+    document.getElementById('closeButtonFooter').addEventListener('click', function() {
+        document.getElementById('exampleCheck1').checked = false;
+    });
+
 });
